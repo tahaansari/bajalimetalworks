@@ -164,3 +164,16 @@ h1,h2,h3,h4,h5,h6{
 .what_we_area .construction_iner .construction .cns-content a {
     color: $color-light;
 }
+
+.slider_area .slider_inner .camera_caption div p{
+    padding-top: 20px;
+}
+
+.slider_area .slider_inner .camera_caption div a:before {
+    background: #004971;
+}
+
+.tittle h4 {
+    font: 400 18px "Roboto",sans-serif;
+    padding-top: 30px;
+}
