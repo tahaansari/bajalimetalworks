@@ -177,3 +177,77 @@ h1,h2,h3,h4,h5,h6{
     font: 400 18px "Roboto",sans-serif;
     padding-top: 30px;
 }
+
+.featured_works .featured_gallery .gallery_iner:after{
+    content:none;
+}
+
+.contact_map{ line-height: 0 }
+
+.our_services_area .portfolio_inner_area .portfolio_filter ul li a {text-transform: capitalize}
+
+
+.featured_works {
+    background: none;
+}
+.featured_works .tittle h2,
+.featured_works .tittle h4{
+    color: #222;
+}
+
+.featured_works:after{
+    content:none;
+}
+.about_us_area .about_row {
+    padding-top: 100px;
+}
+
+.tittle h2{ padding-top: 60px; }
+
+
+.myclients{ background-color: #06445e; }
+
+.myclients .tittle h2,
+.myclients .tittle h4{
+    color: #ffffff;
+}
+
+.featured_works .featured_gallery .gallery_iner{
+    padding: 20px;
+    height: 250px;
+}
+
+.featured_works .featured_gallery .gallery_iner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#clients.featured_works .featured_gallery .gallery_iner{
+    height: auto;
+}
+
+#clients.featured_works .featured_gallery .gallery_iner img{
+    width: auto;
+    height: auto;
+}
+.top_header_area .top_nav li a i{
+    color:$color-light;
+}
+.top_header_area .social_nav li a:hover, .top_header_area .social_nav li a:focus{
+    background:$color-light;
+}
+
+
+
+.all_contact_info .contact_row .contact_info .location a:hover, .all_contact_info .contact_row .contact_info .location a:focus,
+.header_aera .navbar-collapse .navbar-nav.navbar-right li a:hover, .header_aera .navbar-collapse .navbar-nav.navbar-right li a:focus{
+    color:$color-dark;
+}
+
+.our_services_area .portfolio_inner_area .portfolio_filter ul li:hover a, .our_services_area .portfolio_inner_area .portfolio_filter ul li:focus a, .our_services_area .portfolio_inner_area .portfolio_filter ul li.active a,
+.top_header_area .top_nav li a:hover, .top_header_area .top_nav li a:focus,
+.top_header_area .social_nav li a:hover, .top_header_area .social_nav li a:focus{
+    color: #ffffff;
+}
+

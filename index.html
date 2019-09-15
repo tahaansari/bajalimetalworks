@@ -8,7 +8,7 @@
     <title>Balajimetal Craft</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Animate CSS -->
@@ -18,7 +18,10 @@
     <!-- Camera Slider -->
     <link rel="stylesheet" href="vendors/camera-slider/camera.css">
     <!-- Owlcarousel CSS-->
-	<link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
+    <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
 
     <!--Theme Styles CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.min.css" media="all" />
@@ -44,10 +47,10 @@
             <ul class="nav navbar-nav navbar-right social_nav">
                 <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <!-- <li><a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
                 <li><a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="#"> <i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <!-- <li><a href="#"> <i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li> -->
+                <!-- <li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
             </ul>
 	    </div>
 	</section>
@@ -88,6 +91,7 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#aboutus">About Us</a></li>
                         <li><a href="#products">Products</a></li>
+                        <li><a href="#ourwork">Our Work</a></li>
                         <li><a href="#clients">Clients</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -185,8 +189,11 @@
                 </div>
                 <div class="col-md-6 col-sm-6 about_client">
                     <div class="embed-responsive embed-responsive-16by9">
+                        <a data-fancybox href="https://www.youtube.com/embed/r6kSHUGiMCs?rel=0">
+                            <img  src="http://i3.ytimg.com/vi/r6kSHUGiMCs/maxresdefault.jpg" />
+                        </a>
                         <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/r6kSHUGiMCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r6kSHUGiMCs?rel=0" allowfullscreen></iframe>
+                        <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r6kSHUGiMCs?rel=0" allowfullscreen></iframe> -->
                     </div>
                     <!--<img src="images/slider/about_client.jpg" alt="">-->
                 </div>
@@ -208,7 +215,7 @@
                         <img src="images/cns-1.jpg" alt="">
                    </div>
                    <div class="cns-content">
-                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <i class="fa fa-rocket" aria-hidden="true"></i>
                         <a href="#">Design & Rapid<br> Prototyping</a>
                         <p>Biggest Strength at BALAJI METALCRAFT is our design team that is able to constantly refine products with close feedback from customers, improvising existing and new products and
                             processes<br>
@@ -223,7 +230,7 @@
                         <img src="images/slider/cns-2.jpg" alt="">
                    </div>
                    <div class="cns-content">
-                        <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                        <i class="fa fa-globe" aria-hidden="true"></i>
                         <a href="#">Global Quality at indian prices</a>
                         <p>By virtue of our presence in the market for more than 2 decades, we have
                             advantageous buying relationships with suppliers.This helps us to offer Global Quality at Indian Prices to our customers<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -263,7 +270,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
                             </a>
                         </div>
                         <div class="media-body">
@@ -323,171 +330,111 @@
                    <div class="grid-sizer"></div>
                     <div class="single_facilities col-xs-4 p0 apparel">
                        <div class="single_facilities_inner">
-                          	<img src="images/slider/gallery/apparel-1.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Apparel Racks</h4>
-                                <ul>
-                                    <li><a href="images/slider/gallery/apparel-1.jpg"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                            <a data-fancybox="productGallery" href="images/slider/gallery/apparel-1.jpg">
+                              <img src="images/slider/gallery/apparel-1.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 apparel">
                        <div class="single_facilities_inner">
-                          	<img src="images/slider/gallery/apparel-2.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Apparel Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                            <a data-fancybox="productGallery" href="images/slider/gallery/apparel-2.jpg">
+                              <img src="images/slider/gallery/apparel-2.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 apparel">
                        <div class="single_facilities_inner">
-                          	<img src="images/slider/gallery/apparel-3.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Apparel Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                            <a data-fancybox="productGallery" href="images/slider/gallery/apparel-3.jpg">
+                              <img src="images/slider/gallery/apparel-3.jpg" alt="">
+                            </a>
                         </div>
                     </div>
 
                     <div class="single_facilities col-xs-4 p0 cc">
                        <div class="single_facilities_inner">
-                          	<img src="images/slider/gallery/cc-1.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Checkout Counters</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                            <a data-fancybox="productGallery" href="images/slider/gallery/cc-1.jpg">
+                              <img src="images/slider/gallery/cc-1.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 cc">
                        <div class="single_facilities_inner">
-                          	<img src="images/slider/gallery/cc-2.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Checkout Counters</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                            <a data-fancybox="productGallery" href="images/slider/gallery/cc-2.jpg">
+                              <img src="images/slider/gallery/cc-2.jpg" alt="">
+                            </a>
                         </div>
                     </div>
 
                     <div class="single_facilities col-xs-4 p0 grocery">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/grocerry-2.jpg">
                             <img src="images/slider/gallery/grocerry-2.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Grocery Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 grocery">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/grocerry-3.jpg">
                             <img src="images/slider/gallery/grocerry-3.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Grocery Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 grocery">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/fv-1.jpg">
                             <img src="images/slider/gallery/fv-1.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Grocery Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
 
                     <div class="single_facilities col-xs-4 p0 fv">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/fv-1.jpg">
                             <img src="images/slider/gallery/fv-1.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Fruit & Vegetable Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 fv">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/fv-2.jpg">
                             <img src="images/slider/gallery/fv-2.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Fruit & Vegetable Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 fv">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/fv-3.jpg">
                             <img src="images/slider/gallery/fv-3.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Fruit & Vegetable Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 fv">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/fv-4.jpg">
                             <img src="images/slider/gallery/fv-4.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Fruit & Vegetable Racks</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
 
                     <div class="single_facilities col-xs-4 p0 interior">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/int-2.jpg">
                             <img src="images/slider/gallery/int-2.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Interior Design</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 interior">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/int-3.jpg">
                             <img src="images/slider/gallery/int-3.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Interior Design</h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                     <div class="single_facilities col-xs-4 p0 interior">
                         <div class="single_facilities_inner">
+                      <a data-fancybox="productGallery" href="images/slider/gallery/int-1.jpg">
                             <img src="images/slider/gallery/int-1.jpg" alt="">
-                            <div class="gallery_hover">
-                                <h4>Interior Design</h4>
-                                <ul>
-                                    <li><a href="images/slider/gallery/int-1.jpg"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        </a>
                         </div>
                     </div>
                 </div>
@@ -496,10 +443,138 @@
     </section>
     <!-- End Our Services Area -->
 
+    <!-- Our Achievments Area -->
+    <!-- <section class="our_achievments_area" data-stellar-background-ratio="0.3" style="background-position: 50% -192.783px;">
+        <div class="container">
+            <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <h2>Our Achievments</h2>
+                <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+            </div>
+            <div class="achievments_row row">
+                <div class="col-md-3 col-sm-6 p0 completed">
+                    <i class="fa fa-connectdevelop" aria-hidden="true"></i>
+                    <span class="counter">800</span>
+                    <h6>PROJECT COMPLETED</h6>
+                </div>
+                <div class="col-md-3 col-sm-6 p0 completed">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span class="counter">229</span>
+                    <h6>HOUSE RENOVATIONS</h6>
+                </div>
+                <div class="col-md-3 col-sm-6 p0 completed">
+                    <i class="fa fa-child" aria-hidden="true"></i>
+                    <span class="counter">1390</span>
+                    <h6>WORKERS EMPLOYED</h6>
+                </div>
+                <div class="col-md-3 col-sm-6 p0 completed">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <span class="counter">125</span>
+                    <h6>AWARDS WON</h6>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--End Our Achievments Area -->
+
+
+        <!-- Our Featured Works Area -->
+    <section id="ourwork" class="featured_works row" data-stellar-background-ratio="0.3" style="background-position: 50% -70.3828px;">
+        <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <h2>Our Featured Works</h2>
+            <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+        </div>
+        <div class="featured_gallery">
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/1.jpg"><img src="images/featuredwork/1.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/2.jpg"><img src="images/featuredwork/2.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/3.jpg"><img src="images/featuredwork/3.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/4.jpg"><img src="images/featuredwork/4.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/5.jpg"><img src="images/featuredwork/5.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/6.jpg"><img src="images/featuredwork/6.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/7.jpg"><img src="images/featuredwork/7.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/8.jpg"><img src="images/featuredwork/8.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/9.jpg"><img src="images/featuredwork/9.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/10.jpg"><img src="images/featuredwork/10.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/11.jpg"><img src="images/featuredwork/11.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/12.jpg"><img src="images/featuredwork/12.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/13.jpg"><img src="images/featuredwork/13.jpg" alt=""></a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <a data-fancybox="featuredWork" href="images/featuredwork/14.jpg"><img src="images/featuredwork/14.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!--End Our Featured Works Area -->
+
+
+
+     <!-- Our Featured Works Area -->
+     <section id="clients" class="featured_works row myclients" data-stellar-background-ratio="0.3" style="background-position: 50% -70.3828px;">
+        <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <h2>Our Clients</h2>
+            <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+        </div>
+        <div class="container">
+
+        <div class="featured_gallery">
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="https://via.placeholder.com/150x80" alt="">
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!--End Our Featured Works Area -->
+
     
     <!-- Our Partners Area -->
-    <section id="clients" class="our_partners_area">
-        <div class="container">
+    <!-- <section id="clients" class="our_partners_area">
+        <div class="">
             <div class="tittle wow fadeInUp">
                 <h2>Our Partners</h2>
                 <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
@@ -512,17 +587,14 @@
                 <div class="item"><img src="images/client_logo/client_logo-5.png" alt=""></div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End Our Partners Area -->
 
-    <!-- Map -->
-    <div id="contact" class="contact_map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.031530365224!2d72.89947244965887!3d19.10627265592364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7df1e480477%3A0x2bbc88bb115c0c4b!2sBalaji+Metal+Craft!5e0!3m2!1sen!2sin!4v1554196863609!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <!-- End Map -->
+    
+
 
     <!-- All contact Info -->
-    <section  class="all_contact_info">
+    <section id="contact"  class="all_contact_info">
         <div class="container">
             <div class="row contact_row">
                 <div class="col-sm-6 contact_info">
@@ -545,11 +617,9 @@
                 <div class="col-sm-6 contact_info send_message">
                     <h2>Send Us a Message</h2>
                     <form class="form-inline contact_box">
-                        <input type="text" class="form-control input_box" placeholder="First Name *">
-                        <input type="text" class="form-control input_box" placeholder="Last Name *">
+                        <input type="text" class="form-control input_box" placeholder="Enter Name *">
                         <input type="text" class="form-control input_box" placeholder="Your Email *">
                         <input type="text" class="form-control input_box" placeholder="Subject">
-                        <input type="text" class="form-control input_box" placeholder="Your Website">
                         <textarea class="form-control input_box" placeholder="Message"></textarea>
                         <button type="submit" class="btn btn-default">Send Message</button>
                     </form>
@@ -558,6 +628,13 @@
         </div>
     </section>
     <!-- End All contact Info -->
+
+        <!-- Map -->
+    <div class="contact_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.031530365224!2d72.89947244965887!3d19.10627265592364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7df1e480477%3A0x2bbc88bb115c0c4b!2sBalaji+Metal+Craft!5e0!3m2!1sen!2sin!4v1554196863609!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <!-- End Map -->
+
 
     <!-- Footer Area -->
     <footer class="footer_area">
@@ -586,7 +663,21 @@
     <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
     <!-- Stellar JS -->
     <script src="vendors/stellar/jquery.stellar.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+
+    <script>
+        $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 70
+    }, 500);
+});
+    </script>
 </body>
 </html>
