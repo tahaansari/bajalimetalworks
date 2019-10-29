@@ -214,22 +214,28 @@ h1,h2,h3,h4,h5,h6{
 
 .featured_works .featured_gallery .gallery_iner{
     padding: 20px;
-    height: 250px;
+    // height: 150px;
+}
+
+
+.featured_works .featured_gallery.logo .gallery_iner{ 
+    padding: 20px;
+    height: 150px;
 }
 
 .featured_works .featured_gallery .gallery_iner img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 #clients.featured_works .featured_gallery .gallery_iner{
-    height: auto;
+    // height: auto;
 }
 
 #clients.featured_works .featured_gallery .gallery_iner img{
-    width: auto;
-    height: auto;
+    // width: auto;
+    // height: auto;
 }
 .top_header_area .top_nav li a i{
     color:$color-light;
@@ -320,3 +326,7 @@ h1,h2,h3,h4,h5,h6{
       opacity: 0;
     }
   }
+
+  .header_aera .navbar-header .navbar-brand img {
+    max-width: 300px;
+}
